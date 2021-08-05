@@ -1,0 +1,59 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1623875721,
+        "narHash": "sha256-A8BU7bjS5GirpAUv4QA+QnJ4CceLHkcXdRp4xITDB0s=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "f7e004a55b120c02ecb6219596820fcd32ca8772",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "matrix-client": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1627838238,
+        "narHash": "sha256-vpT72mOppGO8HGqDpJ7P5hKxxUjQfJoKHMcag2WDa0A=",
+        "owner": "softwarefactory-project",
+        "repo": "matrix-client-haskell",
+        "rev": "af8c03117a10e36ebbd5d5d596f58c08e39d4121",
+        "type": "github"
+      },
+      "original": {
+        "owner": "softwarefactory-project",
+        "repo": "matrix-client-haskell",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1628199043,
+        "narHash": "sha256-hwxlKgTHM/hjyB/UuxJMvnuLm5PxtHlz3jeBggk4Hl4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "d6b2dfa722a56a4b7f7821f7f2275d98c0b5e818",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "matrix-client": "matrix-client",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
