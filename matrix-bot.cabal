@@ -32,10 +32,12 @@ common common
 library
     import:           common
     build-depends:    base ^>=4.14.1.0
+                    , attoparsec
                     , dhall
                     , matrix-client
                     , mueval
                     , relude
+                    , unliftio
     hs-source-dirs:   src
     exposed-modules:  MatrixBot.Main
     default-language: Haskell2010
